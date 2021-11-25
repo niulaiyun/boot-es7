@@ -1,0 +1,13 @@
+server: 
+  port: 9000
+
+spring: 
+  elasticsearch:
+    rest:
+      uris: 192.168.1.105:9200
+      read-timeout: 10000
+      connection-timeout: 10000
+
+     
+
+
